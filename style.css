@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: max-content;
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem auto;
+    background-color: #f3f4f7;
+    background-image: linear-gradient(90deg, #f3f4f7 0%, #caccd1 100%);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.title{
+    font-size: small;
+    text-align: center;
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    margin: 2rem 0;
+    width: 35rem;
+}
+
+
+.cartao{
+    text-align: start;
+    border: 1px solid #c7c7c7b9;
+    background-color: #eee;
+    font-size: 1.6rem;
+    max-width: 35rem;
+    padding: 3rem;
+    border-radius: 15px;
+}
+
+.input, .botao{
+    padding: 0.8rem 1rem;
+    outline: none;
+    border-radius: 9px;
+    border: 1px solid #c7c7c7b9;
+}
+
+.botao{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+.focus{
+    color: #555;
+    background-color: #08e1ae;
+    background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 74%);
+    padding: 0 3rem;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.nome-palavra{
+    text-align: start;
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+.significado, .pronunciacao{
+    margin: 2rem 0;
+}
+
